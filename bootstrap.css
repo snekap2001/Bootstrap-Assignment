@@ -48,7 +48,6 @@ span .material-symbols-outlined {
 .MultiCarousel .MultiCarousel-inner {
   transition: 1s ease all;
   float: left;
-  
 }
 .MultiCarousel .MultiCarousel-inner .item {
   float: left;
@@ -677,11 +676,11 @@ em {
 }
 
 .round-5 {
-  border-radius: 70%;
+  border-radius: 60%;
 }
 
 .round-6 {
-  border-radius: 70%;
+  border-radius: 60%;
 }
 
 #center {
@@ -951,15 +950,18 @@ em {
   display: block;
 }
 
-input[type=email]{
-  width:100%;
-  height:40px;
-  background-color:rgb(243, 235, 232);
-   border:1px solid black;
-
+input[type="email"] {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(243, 235, 232);
+  border: 1px solid black;
 }
-.g1{
-  overflow-x:auto;
-  width:100%;
-  display:flex;
+.g1 {
+  overflow-x: auto;
+  width: 100%;
+  display: flex;
+}
+.red {
+  font-size: 30px;
+  color: red;
 }
